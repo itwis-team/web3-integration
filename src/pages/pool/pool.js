@@ -17,7 +17,7 @@ import tokenAbi from '../../contracts/tokenAbi';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import redg_logo from '../../assets/img/red_g_coin.webp';
-import useWeb3 from '../../components/useWeb3';
+import useWeb3 from '../../utils/useWeb3';
 import Moralis from 'moralis';
 import { DeployedERC20Farm, DeployedERC20FarmFixEnd, topics, inputs, farmType } from '../../contracts/eventAbi';
 import erc20FarmAbi from '../../contracts/erc20FarmAbi';

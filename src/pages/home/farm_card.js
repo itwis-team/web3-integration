@@ -12,7 +12,7 @@ import { NotificationManager } from 'react-notifications';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import unknown_img from '../../assets/img/questionmarktokenicon.png';
-import useWeb3 from '../../components/useWeb3';
+import useWeb3 from '../../utils/useWeb3';
 import { farmType } from '../../contracts/eventAbi';
 import erc20FarmAbi from '../../contracts/erc20FarmAbi';
 import erc20FarmFixEndAbi from '../../contracts/erc20FarmFixEndAbi';

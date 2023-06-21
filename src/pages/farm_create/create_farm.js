@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { ProgressBar } from "react-milestone";
 
-import useWeb3 from '../../components/useWeb3';
+import useWeb3 from '../../utils/useWeb3';
 
 import { Tab1 } from './steps/tab1';
 import { Tab2 } from './steps/tab2';
